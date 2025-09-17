@@ -163,11 +163,3 @@ Full annotation principles, class definitions, and instructions are available in
 Have suggestions, questions, or want to contribute?
 
 Feel free to open an issue or pull request.
-
-
-## 👩‍💻 Maintainer
-
-Author: \[saeedeh salehi]
-
-Email: \[saeedeh_salehi@elec.iust.ac.ir]
-
