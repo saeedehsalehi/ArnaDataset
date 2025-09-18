@@ -1,5 +1,4 @@
-# Arna: A Multipurpose Dataset of One Thousand and One Documents for Persian Document Analysis
-
+# Arna: Stories from 1001 Persian Pages — A Versatile Benchmark Dataset for Intelligent Document Analysis
 *ArnaDataset* is a unique collection of 1001 annotated Persian document images, carefully labeled into 7 semantic layout categories. Each image is paired with a detailed XML file that not only contains bounding boxes — but also, wherever applicable, the extracted textual content of the regions.
 
 This dataset bridges a significant gap in Persian document understanding, enabling researchers and engineers to build smarter OCR, document parsing, and information extraction systems.
@@ -8,12 +7,10 @@ This dataset bridges a significant gap in Persian document understanding, enabli
 
 ## 📌 Why ArnaDataset?
 
--  Language-specific: Built for Persian documents — including books, newspapers, articles, and more.
--  Semantic Layout Labels: Go beyond OCR. Understand the structure of a page.
--  High-Quality Annotation: Double-reviewed, rule-based, and validated.
--  Text Content Included: Not just where the text is, but what the text says.
--  Diverse Sources: 6 curated categories covering academic, narrative, commercial, and educational materials.
-
+Compared to existing datasets, The Arna dataset can be beneficial not only for tasks such as **OCR**, **layout recognition**, or specifically for **recognizing tables**, **lists**, or **logos**, but it can also be very useful for the overall evaluation of **document analysis** systems.
+Also, One of the notable features of this database is its consideration of various types of text, including **handwritten** and **printed** materials.
+Additionally, this database is classified among multilingual databases, encompassing three languages: **Persian**, **Arabic**, and **English**.
+The dataset also includes accurately annotated files with labeling information for the images. The ground-truth data is organized in XML files containing associated information about the embedded data and image.
 
 
 ## 🔍 Dataset at a Glance
@@ -52,21 +49,19 @@ ArnaDataset/
 
 │
 
-├── 001A/        # **A**rticles
+├── 001A/                 # **A**rticles
 
-├── 011C/        # **C**atalogs
+├── 011C/                 # **C**atalogs
 
-├── 100S/        # **S**tories
+├── 100S/                 # **S**tories
 
-├── 101AB/       # **A**cademic **B**ooks
+├── 101AB/                # **A**cademic **B**ooks
 
-├── 111TB/       # School **T**ext**B**ooks
+├── 111TB/                # School **T**ext**B**ooks
 
-├── 1001N/       # **N**ewspapers
+├── 1001N/                # **N**ewspapers
 
 │
-
-├── guideline.pdf  # Full annotation guideline (EN)
 
 
 > Each image has an XML annotationToole same name.
@@ -121,24 +116,9 @@ Here's a sample visualization of how documents were labeled:
 
 
 
-## 🧪 Potential Applications
-
- 🧠 OCR for Persian (Optical Character Recognition)
- 
- 🧾 Document Layout Analysis
- 
- 📊 Table & List Extraction
- 
- 🤖 AI-powered Data Entry
- 
- 📚 Digitization of historical documents
- 
- 🧬 Multilingual NLP pipelines
-
-
 ## 📘 Annotation Guidelines
 
-Full annotation principles, class definitions, and instructions are available in guideline.pdf. Topics include:
+Full annotation principles, class definitions, and instructions are available in annotation_guidelines.pdf. Topics include:
 
  When to split vs. merge text blocks
  
@@ -149,6 +129,14 @@ Full annotation principles, class definitions, and instructions are available in
  Best practices for equation vs. text detection
 
 
+## 📥 Accessing the Dataset
+
+You can download Arna dataset from the [Here](https://drive.google.com/drive/folders/1KfXNsdtpNPAj8EsgpAFrD1zrXySyujHf?usp=sharing)
+
+If you use this data and find it helpful, we’d appreciate if you could cite our dataset.
+
+For any suggestions, questions, or want to contribute, feel free to contact [email](saeedeh_salehi@elec.iust.ac.ir).
+
 ## 📌 Versioning & Reproducibility
 
  Git-based annotation tracking
@@ -156,10 +144,3 @@ Full annotation principles, class definitions, and instructions are available in
  Validated and reproducible pipeline
  
  All future changes will conform to v1.0 standards
-
-
-## 🤝 Contributing
-
-Have suggestions, questions, or want to contribute?
-
-Feel free to open an issue or pull request.
